@@ -2,7 +2,7 @@ exports.seed = function(knex, Promise) {
   return knex('messages').insert([
     {
       sender: 'Frodo',
-      text: 'Go back Sam, I am goin gto Mordor alone',
+      text: 'Go back Sam, I am going to Mordor alone',
       hub_id: 1,
     },
     {
@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
     },
     {
       sender: 'Boromir',
-      text: 'One does nto simply walk into Mordor',
+      text: 'One does not simply walk into Mordor',
       hub_id: 1,
     },
     {
@@ -22,7 +22,7 @@ exports.seed = function(knex, Promise) {
     },
     {
       sender: 'Lady Galadriel',
-      text: 'Even the smallest person can change the course of  history',
+      text: 'Even the smallest person can change the course of history',
       hub_id: 2,
     },
     {
